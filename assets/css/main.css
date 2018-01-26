@@ -1,0 +1,46 @@
+
+.wrapper {
+		position: relative;
+	}
+
+		.wrapper .title {
+			position: absolute;
+			top: 0;
+			left: 50%;
+			text-align: center;
+			text-transform: uppercase;
+			display: block;
+			font-weight: 700;
+			letter-spacing: 0.25em;
+		}
+
+			.wrapper .title:before {
+				content: '';
+				position: absolute;
+				bottom: -38px;
+				left: -35px;
+				width: 35px;
+				height: 38px;
+				background: url("assets/media/cat.jpg");
+			}
+
+			.wrapper .title:after {
+				-moz-transform: scaleX(-1);
+				-webkit-transform: scaleX(-1);
+				-ms-transform: scaleX(-1);
+				transform: scaleX(-1);
+				content: '';
+				position: absolute;
+				bottom: -38px;
+				right: -35px;
+				width: 35px;
+				height: 38px;
+				background: url("assets/media/cat.jpg");
+			}
+
+		.wrapper.style1 {
+			background: #e97770 url("assets/media/cat.jpg");
+			color: #eee;
+			color: rgba(255, 255, 255, 0.75);
+		}
+    }
