@@ -42,5 +42,10 @@
 			background: #e97770 url("assets/media/cat.jpg");
 			color: #fff;
 			color: rgba(255, 255, 255, 0.75);
+			}
+
+		.wrapper style2 {
+			background: #fff33
+			color: #eee
 		}
     }
