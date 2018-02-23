@@ -101,8 +101,8 @@ function updateGameArea() {
     myGameArea.frameNo += 1;
     if (myGameArea.frameNo == 1 || everyinterval(150)) {
         x = myGameArea.canvas.width;
-        minHeight = 20;
-        maxHeight = 200;
+        minHeight = 15;
+        maxHeight = 175;
         height = Math.floor(Math.random()*(maxHeight-minHeight+1)+minHeight);
         minGap = 70;
         maxGap = 90;
@@ -130,7 +130,7 @@ function accelerate(n) {
 }
 </script>
 <br>
-<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.02)">Flap</button>
+<button onmousedown="accelerate(-0.1)" onmouseup="accelerate(0.01)">Flap</button>
 <p>Use the ACCELERATE button to stay in the air</p>
 <p>How long can you stay alive?</p>
 </body>
